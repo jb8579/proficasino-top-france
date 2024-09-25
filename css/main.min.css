@@ -546,6 +546,16 @@ body .modal-backdrop.show{
     font-size: 12px;
   }
 
+  img.footer-ico.footer-icon-sm-1 {
+    width: 105px;
+}
+img.footer-ico.footer-icon-sm-2 {
+    width: 120px;
+}
+img.footer-ico.footer-icon-sm-3 {
+    width: 60px;
+}
+
 /*# sourceMappingURL=main.min.css.map */
 @media screen and (min-width: 400px){
     .btn.btn-primary {
@@ -563,6 +573,26 @@ body .modal-backdrop.show{
         max-width: fit-content;
         font-size: 12px;
         padding: 12px 8px;
+    }
+
+    
+
+    img.footer-ico.footer-icon-sm-1 {
+        width: 90px;
+    }
+    img.footer-ico.footer-icon-sm-2 {
+        width: 100px;
+    }
+    img.footer-ico.footer-icon-sm-3 {
+        width: 42px;
+    }
+
+    footer img.footer-ico {
+        max-width: 140px;
+    }
+
+    .footer-logo.d-flex.flex-wrap.align-items-center.justify-content-around.gap-3.gap-md-4.my-md-5.py-4{
+        justify-content: center !important;
     }
 
     .list-item .item-bonus p.bon-txt {
