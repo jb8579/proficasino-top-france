@@ -1,3 +1,35 @@
+#disclaimer {
+    overflow: hidden;
+    float: center;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100000;
+    border-bottom: 1px solid transparent;
+    border-image-slice: 1;
+    border-width: 1px;
+    background: radial-gradient(#db0606, #d60d0d);
+}
+
+#disclaimer p {
+    color: #ffffff !important;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 10px 60px 10px 60px;
+    letter-spacing: 0.2px;
+    font-size: 15px;
+    margin: 0px !important;
+    word-spacing: 1.4px;
+}
+
+@media screen and (max-width: 599px) {
+    #disclaimer p {
+        padding: 10px 4px;
+        font-size: 9px;
+        line-height: 16px;
+    }
+}
 
 .trust-area {
 	margin-top: 10px;
@@ -16,8 +48,8 @@
   }
   
   .trust-description > img {
-	width: 24px;
-  }
+    width: 30px;
+}
   
   .trust-description > p {
 	font-weight: 500;
@@ -147,16 +179,16 @@ body .small{
     .trust-description > p {
         word-spacing: 0px;
         letter-spacing: 0px;
-        font-size: 12px;
+        font-size: 10px;
         margin-bottom: 0px !important;
     }
 
     .trust-content {
-        gap: 12px;
+        gap: 8px;
     }
 
     .trust-description > img {
-        width: 18px;
+        width: 16px;
     }
 
     .trust-description {
@@ -266,8 +298,10 @@ section{
 }
 .list-item .notes {
     margin-top: 7px;
-    font-weight: 200 !important;
-    font-size: 9px;
+    font-weight: 300 !important;
+    font-size: 11px !important;
+    color: #d6d6d6 !important;
+    letter-spacing: 0.4px;
 }
 .list-item .item-bonus{
     max-width:180px
@@ -557,14 +591,34 @@ img.footer-ico.footer-icon-sm-3 {
 }
 
 /*# sourceMappingURL=main.min.css.map */
-@media screen and (min-width: 400px){
+@media only screen and (max-width: 600px) and (min-width: 400px){
     .btn.btn-primary {
         font-size: 12px !important;
-        padding: 12px 8px !important;
-        max-width: 180px !important;
+        padding: 12px 4px !important;
+        max-width: 150px !important;
         position: relative;
         right: 50%;
-        transform: translateX(43%);
+        transform: translateX(50%);
+    }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 300px){
+    .trust-description > p {
+        word-spacing: 0px;
+        letter-spacing: 0px;
+        font-size: 8px;
+        margin-bottom: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 601px){
+    #disclaimer p {
+        line-height: 28px;
+        padding: 10px;
+        letter-spacing: 0.2px;
+        font-size: 13px;
+        margin: 0px !important;
+        word-spacing: 1.4px;
     }
 }
 
