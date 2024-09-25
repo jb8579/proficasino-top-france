@@ -370,11 +370,12 @@ section{
     text-transform: uppercase;
 }
 @media (min-width: 992px){
-    .btn.btn-primary{
-        padding:10px 12px;
-        max-width:165px;
-        font-size:14px;
-        padding:12px
+    .btn.btn-primary {
+        padding: 10px 12px;
+        max-width: 224px;
+        font-size: 13px;
+        padding: 12px 4px;
+        width: 100%;
     }
 }
 @media (min-width: 768px){
@@ -736,6 +737,8 @@ img.footer-ico.footer-icon-sm-3 {
     .btn.btn-primary {
         width: 100%;
         max-width: none;
+        font-size: 12px;
+        padding: 12px 2px;
     }
 
     .gap-3 {
