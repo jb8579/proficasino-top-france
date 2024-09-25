@@ -1,0 +1,1 @@
+! function(w, d, t, u, o) {(o = d.createElement(t)).async = 1, o.src = u, o.onload = function() {collect("https://collector.routy.app/4gdelvrb5jfwb6ml2nv8/collect", ["affiliates.routy.app|go.routy.app","/visit/|/goto/"])}, (u = d.getElementsByTagName(t)[0]).parentNode.insertBefore(o, u) }(window, document, "script", "https://cdn.routy.app/collector/v1/collector.min.js", "rt"); 

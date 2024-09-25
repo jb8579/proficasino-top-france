@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 20px;
+    margin: 0;
+}
+
+body, textarea, input {
+    font: 11pt normal Helvetica, Arial, sans-serif;
+}
+
+#contact-us .box {
+    font-weight: bold;
+    font-size: 12pt;
+    line-height: 1.4;
+    padding: 15px 20px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#contact-us .box-success {
+    background-color: #23d160;
+    color: #fff;
+}
+
+#contact-us .box-errors {
+    background-color: #ff3860;
+    color: #fff;
+}
+
+#contact-us .box-errors ul {
+    list-style: none;
+    padding: 10px 0 0 0;
+    margin: 0;
+    font-weight: normal;
+    font-size: 11pt;
+    line-height: 1.4;
+}
+
+#contact-us .form-group,
+#contact-us .form-actions {
+    padding-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact-us .form-group:first-child {
+    padding-top: 0;
+}
+
+#contact-us .form-actions:before,
+#contact-us .form-group label {
+    flex-basis: 100%;
+    line-height: 26px;
+}
+
+#contact-us .form-actions:before {
+    content: '';
+    display: block;
+}
+
+#contact-us .form-group.required label:after {
+    content: ' *';
+    color: #ff3860;
+}
+
+#contact-us .form-group input[type=text],
+#contact-us .form-group input[type=email],
+#contact-us .form-group textarea {
+    flex-basis: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#contact-us .form-group input[type=text]:focus,
+#contact-us .form-group input[type=email]:focus,
+#contact-us .form-group textarea:focus {
+    border-color: #3273dc;
+    box-shadow: 0 0 0 0.125em rgba(50, 115, 220, .25);
+}
+
+#contact-us .form-group textarea {
+    min-height: 80px;
+}
+
+#contact-us .form-actions button {
+    font-weight: bold;
+    background-color: #209cee;
+    border-color: transparent;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+}
+
+#contact-us .form-actions button:hover {
+    background-color: #1c82c6;
+}
+
+@media (min-width: 760px) {
+    #contact-us .form-actions:before,
+    #contact-us .form-group label {
+        flex-basis: 15%;
+        white-space: nowrap;
+    }
+
+    #contact-us .form-group input[type=text],
+    #contact-us .form-group input[type=email],
+    #contact-us .form-group textarea {
+        flex-basis: 85%;
+    }
+}

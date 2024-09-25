@@ -1,0 +1,56 @@
+body.modal-open {
+    overflow-y: hidden;
+}
+
+#contact-box-wrap .contact-backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.80);
+    z-index: 9990;
+    padding: 20px;
+    overflow: auto;
+}
+
+#contact-box-wrap .contact-box {
+    max-width: 920px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.5);
+}
+
+#contact-box-wrap iframe {
+    width: 100%;
+    height: 306px;
+    overflow: hidden;
+}
+
+#contact-box-wrap .contact-title {
+    padding: 8px 20px;
+    display: flex;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+
+#contact-box-wrap .contact-title .contact-close {
+    font-size: 22px;
+    color: inherit;
+    cursor: pointer;
+}
+
+#contact-box-wrap .contact-body {
+    padding: 20px;
+}
+
+@media (min-width: 760px) {
+    #contact-box-wrap .contact-box {
+        margin-top: 35px;
+    }
+}
