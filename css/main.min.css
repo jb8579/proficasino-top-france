@@ -16,7 +16,7 @@
     color: #ffffff !important;
     font-weight: 400;
     line-height: 28px;
-    padding: 10px 60px 10px 60px;
+    padding: 10px 10px;
     letter-spacing: 0.2px;
     font-size: 15px;
     margin: 0px !important;
@@ -611,7 +611,28 @@ img.footer-ico.footer-icon-sm-3 {
     }
 }
 
-@media only screen and (max-width: 1100px) and (min-width: 601px){
+@media only screen and (max-width: 867px) and (min-width: 601px){
+
+    #disclaimer p {
+        line-height: 18px;
+        padding: 10px;
+        letter-spacing: 0.2px;
+        font-size: 13px;
+        margin: 0px !important;
+        word-spacing: 1.4px;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 868px){
+    .btn.btn-primary {
+        width: 100%;
+        max-width: none;
+        padding: 12px 5px;
+        font-size: 14px;
+        min-width: 170px;
+    }
+
+    
     #disclaimer p {
         line-height: 28px;
         padding: 10px;
@@ -684,6 +705,24 @@ img.footer-ico.footer-icon-sm-3 {
     }
 }
 
+@media only screen and (max-width: 360px) and (min-width: 300px){
+    .trust-description {
+        gap: 1px !important;
+    }
+
+    .trust-description > img {
+        width: 14px !important;
+    }
+
+    .trust-description > p {
+        word-spacing: 0px;
+        letter-spacing: 0px;
+        font-size: 7px;
+        margin-bottom: 0px !important;
+        font-weight: 400;
+    }
+
+}
 
 @media only screen and (max-width: 868px) and (min-width: 601px){
     .item-sco.col-6.col-sm-3.text-center.d-none.d-md-block {
@@ -706,7 +745,16 @@ img.footer-ico.footer-icon-sm-3 {
     .list-item .brand-logo img {
         max-width: none;
         height: auto;
-        width: 100%;
+    }
+
+    .list-item .item-sco {
+        font-weight: 700;
+        font-size: 36px;
+    }
+
+    .list-item .item-rat p, .list-item .item-play p {
+        font-weight: 500;
+        font-size: 14px;
     }
 
     .list-item .item-bonus p.bon-txt {
